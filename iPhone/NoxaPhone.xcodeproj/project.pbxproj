@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA0AA1812EF3B8F837FF128 /* FirstLightPoster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B613F4AF29AC79472C844A34 /* FirstLightPoster.jpg */; };
+		342AC8D2EB4B4BC5A5372F7C /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C162EDE03A8617A97F4E153 /* Server.swift */; };
+		5BF25390BFD4EA35AA93C50D /* ServerPlayback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0177EE220225765D2D7E5 /* ServerPlayback.swift */; };
+		600FADB61C8AD57E7047FF84 /* SampleLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA51E49F195E5704867F604 /* SampleLibrary.swift */; };
+		6B119F569998D48805315757 /* Horizon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5019AEA6E6C468461CF32553 /* Horizon.mp4 */; };
+		6CE98A205352DF694F4972BC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C03C0F88034B62EF02D47B7C /* PrivacyInfo.xcprivacy */; };
+		822297E21F77C00257B14DF1 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE02635709856D2446FEE1E /* Phone.swift */; };
+		9BD99E2D9B07B9C5E20FA90F /* HorizonPoster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 542EAFE7E7C7606980DBFD2A /* HorizonPoster.jpg */; };
+		9D2B5CBE097A669E3B706186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23E7D57BCF8A8C6C7F84FB1 /* Assets.xcassets */; };
+		B9D349F4F9DC20FA726DB16B /* FirstLight.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 747CD714627E6AA86D233B80 /* FirstLight.mp4 */; };
+		C812AE0B1DD5C927B730BFE9 /* Screenroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A28BA3873ED5794109A8D74 /* Screenroom.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5911256E09F22FED9FAAF2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8357E14B07B208F739598EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DFED8D172983785D4F79364;
+			remoteInfo = NoxaPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A0177EE220225765D2D7E5 /* ServerPlayback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerPlayback.swift; sourceTree = "<group>"; };
+		0C162EDE03A8617A97F4E153 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		3A28BA3873ED5794109A8D74 /* Screenroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screenroom.swift; sourceTree = "<group>"; };
+		5019AEA6E6C468461CF32553 /* Horizon.mp4 */ = {isa = PBXFileReference; path = Horizon.mp4; sourceTree = "<group>"; };
+		542EAFE7E7C7606980DBFD2A /* HorizonPoster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HorizonPoster.jpg; sourceTree = "<group>"; };
+		546DF45F550D73F3994BE3FD /* PhoneTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		747CD714627E6AA86D233B80 /* FirstLight.mp4 */ = {isa = PBXFileReference; path = FirstLight.mp4; sourceTree = "<group>"; };
+		ACA51E49F195E5704867F604 /* SampleLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLibrary.swift; sourceTree = "<group>"; };
+		B613F4AF29AC79472C844A34 /* FirstLightPoster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FirstLightPoster.jpg; sourceTree = "<group>"; };
+		C03C0F88034B62EF02D47B7C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D23E7D57BCF8A8C6C7F84FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE02635709856D2446FEE1E /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		F10DB81C0C9DB5D3A0682C3A /* NoxaPhone.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NoxaPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		15B71A30C98D0DAB7BDF2EB4 = {
+			isa = PBXGroup;
+			children = (
+				3A335521DF044DDA1C765732 /* App */,
+				4C014587325534CBD25BDFE8 /* Phone */,
+				FD94301477BE5A4FEE0984DC /* PhoneTests */,
+				21944CF84579FF7A000E58D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21944CF84579FF7A000E58D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10DB81C0C9DB5D3A0682C3A /* NoxaPhone.app */,
+				546DF45F550D73F3994BE3FD /* PhoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A335521DF044DDA1C765732 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				747CD714627E6AA86D233B80 /* FirstLight.mp4 */,
+				B613F4AF29AC79472C844A34 /* FirstLightPoster.jpg */,
+				5019AEA6E6C468461CF32553 /* Horizon.mp4 */,
+				542EAFE7E7C7606980DBFD2A /* HorizonPoster.jpg */,
+				C03C0F88034B62EF02D47B7C /* PrivacyInfo.xcprivacy */,
+				ACA51E49F195E5704867F604 /* SampleLibrary.swift */,
+				3A28BA3873ED5794109A8D74 /* Screenroom.swift */,
+				0C162EDE03A8617A97F4E153 /* Server.swift */,
+			);
+			name = App;
+			path = ../App;
+			sourceTree = "<group>";
+		};
+		4C014587325534CBD25BDFE8 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				D23E7D57BCF8A8C6C7F84FB1 /* Assets.xcassets */,
+				DCE02635709856D2446FEE1E /* Phone.swift */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		FD94301477BE5A4FEE0984DC /* PhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				03A0177EE220225765D2D7E5 /* ServerPlayback.swift */,
+			);
+			path = PhoneTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DFED8D172983785D4F79364 /* NoxaPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657326EBAACFA365B6902139 /* Build configuration list for PBXNativeTarget "NoxaPhone" */;
+			buildPhases = (
+				33C9DE5D93CDA139C003BE47 /* Sources */,
+				44D5927665008467A773ECD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoxaPhone;
+			packageProductDependencies = (
+			);
+			productName = NoxaPhone;
+			productReference = F10DB81C0C9DB5D3A0682C3A /* NoxaPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B841A207E1AA109D6B6D24EC /* PhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2310B09ECE291B49295EC20 /* Build configuration list for PBXNativeTarget "PhoneTests" */;
+			buildPhases = (
+				B67CE6C7C43E9CF410D4E98C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D5E13C438E7988D74DB9AD /* PBXTargetDependency */,
+			);
+			name = PhoneTests;
+			packageProductDependencies = (
+			);
+			productName = PhoneTests;
+			productReference = 546DF45F550D73F3994BE3FD /* PhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8357E14B07B208F739598EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3DFED8D172983785D4F79364 = {
+						DevelopmentTeam = XK6QP975ZQ;
+					};
+					B841A207E1AA109D6B6D24EC = {
+						TestTargetID = 3DFED8D172983785D4F79364;
+					};
+				};
+			};
+			buildConfigurationList = 7BB14F9A406C925D07DD77E8 /* Build configuration list for PBXProject "NoxaPhone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 15B71A30C98D0DAB7BDF2EB4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 21944CF84579FF7A000E58D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DFED8D172983785D4F79364 /* NoxaPhone */,
+				B841A207E1AA109D6B6D24EC /* PhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44D5927665008467A773ECD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2B5CBE097A669E3B706186 /* Assets.xcassets in Resources */,
+				B9D349F4F9DC20FA726DB16B /* FirstLight.mp4 in Resources */,
+				1FA0AA1812EF3B8F837FF128 /* FirstLightPoster.jpg in Resources */,
+				6B119F569998D48805315757 /* Horizon.mp4 in Resources */,
+				9BD99E2D9B07B9C5E20FA90F /* HorizonPoster.jpg in Resources */,
+				6CE98A205352DF694F4972BC /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33C9DE5D93CDA139C003BE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822297E21F77C00257B14DF1 /* Phone.swift in Sources */,
+				600FADB61C8AD57E7047FF84 /* SampleLibrary.swift in Sources */,
+				C812AE0B1DD5C927B730BFE9 /* Screenroom.swift in Sources */,
+				342AC8D2EB4B4BC5A5372F7C /* Server.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67CE6C7C43E9CF410D4E98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF25390BFD4EA35AA93C50D /* ServerPlayback.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80D5E13C438E7988D74DB9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DFED8D172983785D4F79364 /* NoxaPhone */;
+			targetProxy = C5911256E09F22FED9FAAF2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		428E999932E2805FB534CF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		44689A0B517650A8CA875A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = XK6QP975ZQ;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emerytech.screenroom.tv;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		48CA69EDA102BB9D309FC14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E718B833D788EDD107F3F0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emerytech.screenroom.phone-tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NoxaPhone;
+			};
+			name = Debug;
+		};
+		ECBF60B77CB203FCF225A8A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emerytech.screenroom.phone-tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NoxaPhone;
+			};
+			name = Release;
+		};
+		F760A7A5BC14D91AF753F757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = XK6QP975ZQ;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emerytech.screenroom.tv;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		657326EBAACFA365B6902139 /* Build configuration list for PBXNativeTarget "NoxaPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F760A7A5BC14D91AF753F757 /* Debug */,
+				44689A0B517650A8CA875A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7BB14F9A406C925D07DD77E8 /* Build configuration list for PBXProject "NoxaPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48CA69EDA102BB9D309FC14F /* Debug */,
+				428E999932E2805FB534CF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2310B09ECE291B49295EC20 /* Build configuration list for PBXNativeTarget "PhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E718B833D788EDD107F3F0EE /* Debug */,
+				ECBF60B77CB203FCF225A8A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8357E14B07B208F739598EEB /* Project object */;
+}
